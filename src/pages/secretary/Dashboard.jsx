@@ -27,7 +27,7 @@ const SecretaryDashboard = () => {
 
   useEffect(() => {
     fetchData();
-}, [user]);
+  }, []);
 
   const fetchData = async () => {
     try {

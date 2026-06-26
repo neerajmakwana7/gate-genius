@@ -25,9 +25,9 @@ const WatchmanDashboard = () => {
   const [photo, setPhoto] = useState(null);
   const [photoPreview, setPhotoPreview] = useState(null);
 
-  useEffect(() => {
+ useEffect(() => {
     fetchData();
-}, [user]);
+  }, []);
 
   const fetchData = async () => {
     try {
