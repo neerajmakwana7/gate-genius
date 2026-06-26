@@ -27,7 +27,7 @@ const WatchmanDashboard = () => {
 
   useEffect(() => {
     fetchData();
-  }, []);
+}, [user]);
 
   const fetchData = async () => {
     try {
